@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import BenefitSection from "./Benefit/BenefitSection";
 import Problem from "@/components/Problem";
+import FeaturesAccordion from "@/components/FeaturesAccordion";
 
 export default function Page() {
   return (
@@ -11,6 +12,7 @@ export default function Page() {
       <Hero />
       <Problem />
       <BenefitSection />
+      <FeaturesAccordion />
     </div>
   );
 }
