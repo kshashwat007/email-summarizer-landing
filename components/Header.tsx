@@ -12,8 +12,8 @@ import Image from "next/image";
 // MenuItems JSON
 const menuItems = [
   { text: "Home", url: "#" },
-  { text: "Features", url: "#" },
   { text: "About", url: "#" },
+  { text: "Features", url: "#" },
   { text: "Login", url: "#" },
 ];
 

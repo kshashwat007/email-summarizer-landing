@@ -1,9 +1,9 @@
 const Arrow = ({ extraStyle }: { extraStyle: string }) => {
   return (
     <svg
-      className={`shrink-0 w-12 fill-neutral-content opacity-70 ${extraStyle}`}
+      className={`shrink-0 w-12 opacity-70 ${extraStyle}`}
       viewBox="0 0 138 138"
-      fill="none"
+      fill="black"
       xmlns="http://www.w3.org/2000/svg"
     >
       <g>
@@ -41,26 +41,26 @@ const Step = ({ emoji, text }: { emoji: string; text: string }) => {
 // - Features: "ShipFast has user auth, Stripe, emails all set up for you"
 const Problem = () => {
   return (
-    <section className="bg-neutral text-neutral-content">
+    <section className="bg-white text-black font-mono">
       <div className="max-w-7xl mx-auto px-8 py-16 md:py-32 text-center">
         <h2 className="max-w-3xl mx-auto font-extrabold text-4xl md:text-5xl tracking-tight mb-6 md:mb-8">
-          80% of startups fail because founders never launch
+        Email overload steals your time and buries important messages.
         </h2>
         <p className="max-w-xl mx-auto text-lg opacity-90 leading-relaxed mb-12 md:mb-20">
-          Emails, DNS records, user authentication... There&apos;s so much going
+          Overflowed inbox, Long emails, missed information... There&apos;s so much going
           on.
         </p>
 
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6">
-          <Step emoji="🧑‍💻" text="8 hrs to add Stripe" />
+          <Step emoji="🧑‍💻" text="Inbox overloaded" />
 
           <Arrow extraStyle="max-md:-scale-x-100 md:-rotate-90" />
 
-          <Step emoji="😮‍💨" text="Struggle to find time" />
+          <Step emoji="😮‍💨" text="Miss information burried" />
 
           <Arrow extraStyle="md:-scale-x-100 md:-rotate-90" />
 
-          <Step emoji="😔" text="Quit project" />
+          <Step emoji="😔" text="Inefficient time & email management" />
         </div>
       </div>
     </section>

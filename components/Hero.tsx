@@ -8,7 +8,7 @@ import calender from "../public/assets/calender.svg";
 import tabler from "../public/assets/tabler.svg";
 import ganalytics from "../public/assets/ganalytics.svg";
 import ButtonLead from "@/components/ButtonLead";
-import VectorLine from '../public/assets/Vector 148.png'
+// import VectorLine from '../public/assets/Vector 148.png'
 
 const Hero = () => {
   return (
@@ -39,13 +39,13 @@ const Hero = () => {
         <Image src={heroImage} className="rounded-xl" alt="" />
       </div>
       <div className="flex flex-col items-center justify-center">
-      <div className="flex items-baseline">
+      {/* <div className="flex items-baseline">
         <div className="flex flex-col items-center">
           <span className="font-bold text-purple-600 font-mono" style={{ fontSize: '45px' }}>Three</span>
           <Image src={VectorLine} alt="Decorative squiggly line" />
         </div>
         <span className="text-black pl-4 font-mono" style={{ fontSize: '45px' }}> easy steps</span>
-      </div>
+      </div> */}
     </div>
     </div>
   );
