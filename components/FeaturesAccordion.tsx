@@ -3,6 +3,7 @@
 import { useState, useRef } from "react";
 import type { JSX } from "react";
 import Image from "next/image";
+import Feature1 from '../public/assets/feature-1.png'
 
 interface Feature {
   title: string;
@@ -25,10 +26,9 @@ const features = [
   {
     title: "Summaries",
     description:
-      "Send transactional emails, setup your DNS to avoid spam folder (DKIM, DMARC, SPF in subdomain), and listen to webhook to receive & forward emails",
-    type: "video",
-    path: "https://d3m8mk7e1mf7xn.cloudfront.net/app/newsletter.webm",
-    format: "video/webm",
+      "Get Email Summaries of unread emails from last week. Easy to digest and get a gist of the email.",
+    // type: "image",
+    // path: `${Feature1}`,
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -48,10 +48,10 @@ const features = [
   {
     title: "Action Items",
     description:
-      "Create checkout sessions, handle webhooks to update user's account (subscriptions, one-time payments...) and tips to setup your account & reduce chargebacks",
-    type: "image",
-    path: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    alt: "A computer",
+      "Get Action Items from your mail. Prioritize your time with important action items to be carried out without missing anything.",
+    // type: "image",
+    // path: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+    // alt: "A computer",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ const features = [
   {
     title: "Extracted Links",
     description:
-      "Magic links setup, login with Google walkthrough, save user in MongoDB/Supabase, private/protected pages & API calls",
+      "Quickly get access to any important links shared in the mail without spending much time.",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +171,7 @@ const Media = ({ feature }: { feature: Feature }) => {
   } else if (type === "image") {
     return (
       <Image
-        src={path}
+        src={Feature1}
         alt={alt}
         className={`${style} object-cover object-center`}
         width={size.width}
@@ -190,7 +190,7 @@ const FeaturesAccordion = () => {
 
   return (
     <section
-      className="py-24 md:py-32 space-y-24 md:space-y-32 max-w-7xl mx-auto bg-base-100 "
+      className="py-24 md:py-32 space-y-24 md:space-y-32 max-w-7xl mx-auto bg-base-100 font-mono"
       id="features"
     >
        
