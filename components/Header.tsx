@@ -36,7 +36,7 @@ const IconList = () => (
   </div>
 );
 
-const  MobileMenu = ({ onClose }) => {
+const MobileMenu = ({ onClose }) => {
   useEffect(() => {
     const handleOutsideClick = (event) => {
       if (!event.target.closest(".main-nav-menu-mobile")) {
