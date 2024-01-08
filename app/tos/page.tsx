@@ -12,15 +12,14 @@ import config from "@/config";
 // You are an excellent lawyer.
 
 // I need your help to write a simple Terms & Services for my website. Here is some context:
-// - Website: https://shipfa.st
-// - Name: ShipFast
-// - Contact information: marc@shipfa.st
-// - Description: A JavaScript code boilerplate to help entrepreneurs launch their startups faster
+// - Website: https://summailize.com/
+// - Name: Summailize
+// - Description: An Unread Email Summarizer for gmail
 // - Ownership: when buying a package, users can download code to create apps. They own the code but they do not have the right to resell it. They can ask for a full refund within 7 day after the purchase.
-// - User data collected: name, email and payment information
+// - User data collected: email
 // - Non-personal data collection: web cookies
-// - Link to privacy-policy: https://shipfa.st/privacy-policy
-// - Governing Law: France
+// - Link to privacy-policy: https://summailize.com/privacy-policy
+// - Governing Law: India
 // - Updates to the Terms: users will be updated by email
 
 // Please write a simple Terms & Services for my site. Add the current date. Do not add or explain your reasoning. Answer:
@@ -57,39 +56,41 @@ const TOS = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: September 26, 2023
+          {`Terms of Service for Summailize
 
-Welcome to ShipFast!
+Date: January 9, 2024
 
-These Terms of Service ("Terms") govern your use of the ShipFast website at https://shipfa.st ("Website") and the services provided by ShipFast. By using our Website and services, you agree to these Terms.
+1. Introduction
+Welcome to Summailize (https://summailize.com/). These Terms of Service ("Terms") govern your use of the Summailize website and its Unread Email Summarizer for Gmail. By accessing or using our service, you agree to be bound by these Terms.
 
-1. Description of ShipFast
+2. User Data Collection
+We collect personal data such as your email address to provide our services. For more details on how we handle your personal data, please refer to our Privacy Policy (https://summailize.com/privacy-policy).
 
-ShipFast is a platform that offers a JavaScript code boilerplate to assist entrepreneurs in launching their startups more efficiently.
+3. Non-Personal Data Collection
+We use web cookies to enhance user experience and analyze website performance. These cookies do not collect personal information.
 
-2. Ownership and Usage Rights
+4. Use of Service
+You agree to use Summailize solely for your personal, non-commercial use. Misuse or unauthorized use of the service is strictly prohibited.
 
-When you purchase a package from ShipFast, you gain the right to download and use the code provided for creating applications. You own the code you create but do not have the right to resell it. We offer a full refund within 7 days of purchase, as specified in our refund policy.
+5. Intellectual Property Rights
+All content on Summailize, including the design, text, graphics, and the selection and arrangement thereof, is the sole property of Summailize or its licensors.
 
-3. User Data and Privacy
+6. Disclaimer of Warranties
+Summailize is provided "as is" without any warranties, express or implied. We do not guarantee the accuracy or reliability of the service.
 
-We collect and store user data, including name, email, and payment information, as necessary to provide our services. For details on how we handle your data, please refer to our Privacy Policy at https://shipfa.st/privacy-policy.
+7. Limitation of Liability
+Summailize will not be liable for any direct, indirect, incidental, special, or consequential damages resulting from the use or inability to use the service.
 
-4. Non-Personal Data Collection
+8. Governing Law
+These Terms are governed by the laws of India. Any disputes arising in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of India.
 
-We use web cookies to collect non-personal data for the purpose of improving our services and user experience.
+9. Changes to Terms
+Summailize reserves the right to modify these Terms at any time. Users will be notified of any changes via email.
 
-5. Governing Law
+10. Contact Us
+If you have any questions about these Terms, please contact us at [insert contact information].
 
-These Terms are governed by the laws of France.
-
-6. Updates to the Terms
-
-We may update these Terms from time to time. Users will be notified of any changes via email.
-
-For any questions or concerns regarding these Terms of Service, please contact us at marc@shipfa.st.
-
-Thank you for using ShipFast!`}
+By using Summailize, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.`}
         </pre>
       </div>
     </main>

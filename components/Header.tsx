@@ -10,11 +10,11 @@ import websiteLogo from "../app/icon.png"
 import Image from "next/image";
 
 // MenuItems JSON
-const menuItems = [
-  { text: "Home", url: "#" },
-  { text: "About", url: "#" },
-  { text: "Features", url: "#" },
-  { text: "Login", url: "#" },
+const menuItems: any[] = [
+  // { text: "Home", url: "#" },
+  // { text: "About", url: "#" },
+  // { text: "Features", url: "#" },
+  // { text: "Login", url: "#" },
 ];
 
 const iconComponents = [
