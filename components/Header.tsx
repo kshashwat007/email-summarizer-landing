@@ -38,7 +38,7 @@ const IconList = () => (
 
 const MobileMenu = ({ onClose }: {onClose: any}) => {
   useEffect(() => {
-    const handleOutsideClick = (event) => {
+    const handleOutsideClick = (event: any) => {
       if (!event.target.closest(".main-nav-menu-mobile")) {
         onClose();
       }
@@ -92,7 +92,7 @@ const MobileMenu = ({ onClose }: {onClose: any}) => {
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const handleMobileMenuToggle = (event) => {
+  const handleMobileMenuToggle = (event: any) => {
     event.stopPropagation();
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
@@ -102,7 +102,7 @@ const Header = () => {
   };
 
   useEffect(() => {
-    const handleEscapeKey = (event) => {
+    const handleEscapeKey = (event: any) => {
       if (event.key === "Escape") {
         setIsMobileMenuOpen(false);
       }
