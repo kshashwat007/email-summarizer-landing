@@ -10,10 +10,10 @@ function BenefitSection() {
     <section className="benefit__section max-w-4xl mx-auto relative mt-12 flex flex-col gap-8">
       <div className="flex items-center justify-center">
         <div className="flex flex-col items-center">
-          <span className="font-bold text-purple-600 font-mono" style={{ fontSize: '45px' }}>Three</span>
+          <span className="font-bold text-purple-600 font-mono" style={{ fontSize: '40px' }}>Three</span>
           <Image src={VectorLine} alt="Decorative squiggly line" />
         </div>
-        <span className="text-black pl-4 font-mono pb-2" style={{ fontSize: '45px' }}> easy steps</span>
+        <span className="text-black pl-4 font-mono pb-2 sm:text" style={{ fontSize: '40px' }}> easy steps</span>
       </div>
       <div className="bg-[#2FC7F7] flex flex-col md:flex-row gap-y-2 py-10 md:pt-10 lg:rounded-xl relative">
         <div className="hidden lg:block absolute top-0 left-40 w-[408px] h-[408px] bg-blue-700 rounded-full blur-[300px]" />

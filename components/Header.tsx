@@ -159,11 +159,11 @@ const Header = () => {
               }`}
               onClick={handleMobileMenuToggle}
             >
-              {isMobileMenuOpen ? (
+              {/* {isMobileMenuOpen ? (
                 <AiOutlineCloseCircle className="text-2xl focus:outline-none active:scale-110 active:text-slate-200" />
               ) : (
                 <HiMenuAlt3 className="text-2xl text-slate-800 focus:outline-none active:scale-110 active:text-red-500" />
-              )}
+              )} */}
             </button>
           </div>
         </div>
