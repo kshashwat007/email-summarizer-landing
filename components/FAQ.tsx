@@ -13,24 +13,56 @@ interface FAQItemProps {
 
 const faqList: FAQItemProps[] = [
   {
-    question: "What do I get exactly?",
-    answer: <div className="space-y-2 leading-relaxed">Loreum Ipseum</div>,
+    question: "How does the app determine which emails to summarize?",
+    answer: <div className="space-y-2 leading-relaxed">The app fetches your unread emails from the past week in your Primary Inbox Label.</div>,
   },
   {
-    question: "Can I get a refund?",
+    question: " Is my email data secure?",
     answer: (
       <p>
-        Yes! You can request a refund within 7 days of your purchase. Reach out
-        by email.
+        Yes, your email data is handled with the utmost security and privacy. We take data protection seriously, and all your email information is encrypted and stored securely. We do not share your data with third parties.
       </p>
     ),
   },
   {
-    question: "I have another question",
+    question: "Will I need to use my own OpenAI API key?",
     answer: (
-      <div className="space-y-2 leading-relaxed">Cool, contact us by email</div>
+      <p>
+        Yes for the time being. Rest assured your key will be encrypted and will be only for your account itself. We are working towards better token usage so in due time, this will be optional and will not be required. Although this will come with pricing restructure.
+      </p>
     ),
   },
+  {
+    question: "What email providers does the app support?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">At the moment we support only Gmail accounts. But on user request, be rest assured, we will look into integrating other providers.</div>
+    ),
+  },
+  {
+    question: "Can I customize the summarization settings?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">At the moment the Summarization settings including which folders, particular senders, length of summary etc are fixed. But we will be working towards more customizability.</div>
+    ),
+  },
+  {
+    question: "Is there a limit to the number of emails I can summarize?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">We offer different plans with varying limits on the number of emails you can summarize. The limits depend on the plan you choose.</div>
+    ),
+  },
+  {
+    question: "Do you support multiple email accounts?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">For the moment the summaries which you see are for only 1 account. For another account you would need to log out and log in. But we will be working towards integrating multiple accounts.</div>
+    ),
+  },
+  {
+    question: "How often does the app summarize my emails?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">The Email Summaries will be fetched on a period on 2-3 days. Each fetch will retrieve the new unread emails from the past week. For the time being this is fixed for the beta, but on request we will be adding more customizability options.</div>
+    ),
+  },
+  
 ];
 
 const FaqItem = ({ item }: { item: FAQItemProps }) => {
