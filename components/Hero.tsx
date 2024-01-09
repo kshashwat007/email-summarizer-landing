@@ -21,10 +21,10 @@ const Hero = () => {
           <Image src={tabler} className="absolute bottom-0 left-0" alt="" />
           <Image src={ganalytics} className="absolute bottom-0 right-0" alt="" />
 
-          <h1 className="text-4xl text-white md:text-5xl xl:text-[60px] leading-[1.2] md:max-w-xl mx-auto text-center lg:max-w-3xl font-semibold">
+          <h1 className="text-4xl text-black md:text-5xl xl:text-[60px] leading-[1.2] md:max-w-xl mx-auto text-center lg:max-w-3xl font-semibold">
             Emails, Summarized. Time, Maximized.
           </h1>
-          <p className="text-md lg:text-lg max-w-[16rem] mx-auto md:max-w-xl md:mx-auto lg:max-w-2xl text-white text-center">
+          <p className="text-md lg:text-lg max-w-[16rem] mx-auto md:max-w-xl md:mx-auto lg:max-w-2xl text-black text-center">
             Spend Less Time in Your Inbox and More Time Doing What Matters with Actionable Summaries
           </p>
           
