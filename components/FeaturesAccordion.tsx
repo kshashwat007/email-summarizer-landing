@@ -190,14 +190,14 @@ const FeaturesAccordion = () => {
 
   return (
     <section
-      className="py-24 md:py-32 space-y-24 md:space-y-32 max-w-7xl mx-auto bg-base-100 font-mono"
+      className="py-8 m-12 md:py-32 space-y-24 md:space-y-32 max-w-4xl mx-auto bg-base-100 font-mono"
       id="features"
     >
        
       <div className="px-8">
         <h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight mb-12 md:mb-24">
           Your Personal Email Assistant -
-          <span className="bg-neutral text-neutral-content px-2 md:px-4 ml-1 md:ml-1.5 leading-relaxed whitespace-nowrap">
+          <span className="bg-neutral text-neutral-content px-2 md:px-4 ml-1 md:ml-1.5 leading-relaxed md:whitespace-nowrap">
           Save Time Every Day
           </span>
         </h2>
