@@ -30,7 +30,7 @@ const Hero = () => {
           
 
           <ButtonLead />
-          {/* <TestimonialsAvatars /> */}
+          <TestimonialsAvatars />
           {/* <button className="bg-black text-white w-1/3 hover:shadow-lg border border-transparent hover:drop-shadow transition duration-200 lg:w-1/3 font-semibold text-xs lg:text-base rounded-lg px-5 py-3">
             Get Started
           </button> */}

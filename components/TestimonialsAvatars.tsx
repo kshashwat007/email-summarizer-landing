@@ -31,7 +31,7 @@ const TestimonialsAvatars = ({ priority }: { priority?: boolean }) => {
   return (
     <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-3">
       {/* AVATARS */}
-      <div className={`-space-x-5 avatar-group justy-start`}>
+      {/* <div className={`-space-x-5 avatar-group justy-start`}>
         {avatars.map((image, i) => (
           <div className="avatar w-12 h-12" key={i}>
             <Image
@@ -43,7 +43,7 @@ const TestimonialsAvatars = ({ priority }: { priority?: boolean }) => {
             />
           </div>
         ))}
-      </div>
+      </div> */}
 
       {/* RATING */}
       <div className="flex flex-col justify-center items-center md:items-start gap-1">
@@ -66,8 +66,7 @@ const TestimonialsAvatars = ({ priority }: { priority?: boolean }) => {
         </div>
 
         <div className="text-base text-base-content/80">
-          <span className="font-semibold text-base-content">32</span> makers
-          ship faster
+          <span>Join </span><span className="font-semibold text-base-content">12</span> others on the Beta list
         </div>
       </div>
     </div>
