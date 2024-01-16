@@ -3,6 +3,8 @@ import TestimonialsAvatars from "./TestimonialsAvatars";
 import config from "@/config";
 import Header from "./Header";
 import heroImage from "../public/assets/heroImage.png"
+import left1 from "../public/assets/left1.png"
+import right1 from "../public/assets/right1.png"
 import chat from "../public/assets/chat.svg";
 import calender from "../public/assets/calender.svg";
 import tabler from "../public/assets/tabler.svg";
@@ -36,8 +38,23 @@ const Hero = () => {
           </button> */}
         </div>
       </div>
-      <div className="flex items-center justify-center lg:gap-5 lg:p-10 max-w-6xl h-xl mx-auto rounded-none lg:rounded-2xl overflow-hidden">
-        <Image src={heroImage} className="rounded-xl" alt="" />
+      <div className="flex lg:flex-row flex-col items-center justify-center gap-5 p-5 max-w-8xl mx-auto rounded-none lg:rounded-2xl overflow-hidden">
+  
+        <div className="text-center">
+          <Image src={left1} className="rounded-xl border-2 border-gray-400" alt="Left Image Description" />
+          <h2 className="mt-2 text-2xl">Turn This</h2>
+        </div>
+        
+        <div className="lg:hidden text-2xl">↓</div>
+  
+        {/* Arrow for large screens, pointing right */}
+        <div className="hidden lg:block text-3xl">→</div>
+        
+        <div className="text-center">
+          <Image src={right1} className="rounded-xl border-2 border-gray-400" alt="Right Image Description" />
+          <h2 className="mt-2 text-2xl">Into This</h2>
+        </div>
+        
       </div>
       <div className="flex flex-col items-center justify-center">
       {/* <div className="flex items-baseline">
