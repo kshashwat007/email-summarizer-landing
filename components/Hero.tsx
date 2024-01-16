@@ -36,7 +36,7 @@ const Hero = () => {
           </button> */}
         </div>
       </div>
-      <div className="flex items-center justify-center gap-5 p-10 max-w-6xl mx-auto rounded-none lg:rounded-2xl overflow-hidden">
+      <div className="flex items-center justify-center lg:gap-5 lg:p-10 max-w-6xl h-xl mx-auto rounded-none lg:rounded-2xl overflow-hidden">
         <Image src={heroImage} className="rounded-xl" alt="" />
       </div>
       <div className="flex flex-col items-center justify-center">
