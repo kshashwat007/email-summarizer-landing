@@ -47,7 +47,7 @@ const TestimonialsAvatars = ({ priority }: { priority?: boolean }) => {
 
       {/* RATING */}
       <div className="flex flex-col justify-center items-center md:items-start gap-1">
-        <div className="rating">
+        {/* <div className="rating">
           {[...Array(5)].map((_, i) => (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -63,10 +63,10 @@ const TestimonialsAvatars = ({ priority }: { priority?: boolean }) => {
               />
             </svg>
           ))}
-        </div>
+        </div> */}
 
         <div className="text-base text-base-content/80">
-          <span>Join </span><span className="font-semibold text-base-content">12</span> others on the Beta list
+          <span>Join now for </span><span className="font-semibold text-base-content">FREE</span> access - Limited availability.
         </div>
       </div>
     </div>
